@@ -1,0 +1,46 @@
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+.heading-area{
+    background-image: url('images/donation13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    margin-top: 0px;
+   
+}
+   
+.heading-area h1{
+    font-size: 75px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding-top: 85px;
+}
+
+.heading-area p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.heading-area a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(255, 87, 58);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 550px;
+    
+}
