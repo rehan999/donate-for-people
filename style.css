@@ -166,3 +166,21 @@ form button{
     padding: 5px;
     border-radius: 5px;
 }
+                             /* footer part start  */
+footer{
+    margin: 0%;
+    background-color: black;
+    color: white;
+    height: 175px;
+    text-align: center;
+}
+footer h1{
+    font-family: Cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: tomato;
+    padding-top: 40px;
+    
+}
+
+                                /* end  */
