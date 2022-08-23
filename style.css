@@ -90,25 +90,29 @@ body{
                /* Donation planning section start  */
 .plan-container{
     display: flex;
-    margin-left: 120px;    
-    margin-bottom: 150px;  
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 150px;
 } 
 .plan-container #food-item{
     width: 25%;
     background-color: rgb(255, 243, 243);
     margin-right: 25px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 .plan-container #shelter-item{
     width: 25%;
-    background-color: rgb(229, 255, 246);
+    background-color: rgb(253, 255, 246);
     margin-right: 25px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 .plan-container #education-item{
     width: 25%;
-    background-color: rgb(221, 241, 255);
-    padding: 20px;
+    background-color: rgb(244, 253, 255);
+    padding: 20px 30px;
+}
+.plan-container img{
+    margin-top: 30px;
 }
 .plan-container h3{
     font-size: 30px;
@@ -116,4 +120,49 @@ body{
 }
 .plan-container p{
     text-align: justify;
+}
+
+                        /* volunteer section start */
+
+
+.volunteer-area{
+    height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 150px;
+   
+}
+.volunteer-area a{
+    text-decoration: none;
+    color: rgb(207, 255, 190);
+    background-color: #378673;
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-left: 25px;
+    padding: 25px;
+    
+}
+
+                    /* Subscribe  section start */
+
+
+form{
+    text-align: center;
+    margin-bottom: 150px;
+}
+form button{
+    background-color: rgb(160, 13, 57);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+}
+#form-decorations{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
 }
