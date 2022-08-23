@@ -5,13 +5,14 @@ body{
     background-color: aliceblue;
     margin: 0px;
 }
-
+ /* 1st section start  */
 .heading-area{
     background-image: url('images/donation13.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 720px;
     margin-top: 0px;
+    margin-bottom: 150px;
    
 }
    
@@ -32,7 +33,7 @@ body{
     padding-bottom: 50px;
 }
 
-.heading-area a {
+.donate-button-style {
     text-align: center;
     text-decoration: none;
     font-size: 30px;
@@ -41,6 +42,49 @@ body{
     background-color: rgb(255, 87, 58);
     padding: 5px 10px;
     border-radius: 5px;
-    margin-left: 550px;
+    margin-left: 570px;
     
 }
+
+ /* 2nd section start  */
+
+.donation-amount{
+    margin-bottom: 150px;
+}
+.donation-amount h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight:900;
+    margin-bottom: 0px;
+}
+.donation-amount p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+.dontaion-flex{
+    display: flex;
+    margin-left: 300px;
+}
+.dontaion-flex h3{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(219, 241, 255);
+    padding: 25px 50px;
+    border-radius: 5px;
+}
+.dontaion-flex #common-donate{
+    border: 2px solid rgb(255, 89, 60);
+    background-color: rgb(255, 211, 211);
+    color: rgb(255, 86, 57);
+}
+ hr{
+    width: 50%;
+    size: 10px;
+    align-items: center;
+    margin-bottom: 25px;
+ }
+
+ /* 3rd section start  */
